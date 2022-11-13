@@ -16,8 +16,8 @@ http-request ^https?://\w+\.youth\.cn/(TaskCenter|WebApi/NewTaskIos)/(sign|getSi
 
 # Loon 定时任务配置
 # cron "8/30 * 1-6 * * *" script-path=https://raw.githubusercontent.com/acmcheng/QX_CM/main/zqrad.js, enabled=true, tag=中青阅读
-# cron "15/30 * * * *" script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, enabled=true, tag=中青签到、宝箱
+# cron "15/30 * * * *" script-path=https://raw.githubusercontent.com/acmcheng/QX_CM/main/youth.js, enabled=true, tag=中青签到、宝箱
 
 # QX构造请求配置
 # 8/30 * 1-6 * * * https://raw.githubusercontent.com/acmcheng/QX_CM/main/zqrad.js, tag=中青阅读, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=true
-# 15/30 * * * * https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, tag=中青签到、宝箱, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=true
+# 15/30 * * * * https://raw.githubusercontent.com/acmcheng/QX_CM/main/youth.js, tag=中青签到、宝箱, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=true
